@@ -1,0 +1,44 @@
+#animacion {
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    position: relative;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes movimiento {
+    0% {
+      color: $color-h2;
+      left: 0px;
+      top: 0px;
+    }
+  
+    25% {
+      color: $color-h1;
+      left: 200px;
+      top: 10px;
+    }
+  
+    50% {
+      color: $color-nav;
+      right: 100px;
+      top: 10px;
+    }
+  
+    75% {
+      color: $color-h1;
+      right: 100px;
+      top: 10px;
+    }
+  
+    100% {
+      color: $color-original;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
+  #animation:hover {
+    color: $color-nav;
+  }
