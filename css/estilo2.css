@@ -73,3 +73,14 @@
 
 main {
   background-color: #883434; }
+
+  .galeria {
+    transition: all 2s;
+    
+  }
+  
+  .galeria:hover {
+    transform: scale(1.1);
+  }
+  
+  
